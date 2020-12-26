@@ -9,5 +9,9 @@ public class DummyController {
 	public String getData() {
 		return "KL";
 	}
+	@GetMapping("/ping2")
+	public String dd() {
+		return "kl";
+	}
 
 }
