@@ -13,5 +13,10 @@ public class DummyController {
 	public String dd() {
 		return "kl";
 	}
+	
+	@GetMapping("/ping3")
+	public String ddf() {
+		return "kl";
+	}
 
 }
